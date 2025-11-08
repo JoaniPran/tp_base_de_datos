@@ -1,6 +1,6 @@
 -- Registrar un usuario.
 INSERT INTO Usuarios (nombre, apellido, email, fecha_ingreso, cantidad_ingresos, pais) VALUES 
-('Rogelio', 'Buen Dia', 'rogelioBuenDia@gmail.com', '2024-03-18', 1, 'Argentina');
+('Rogelio', 'Buen Dia', 'rogelio_buendia@gmail.com', '2024-03-18', 1, 'Argentina');
 
 -- Listar todos los usuarios de la red social.
 SELECT *

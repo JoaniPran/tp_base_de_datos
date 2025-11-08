@@ -1,3 +1,5 @@
+CREATE TYPE PAIS AS ENUM ('Argentina', 'Chile', 'Paraguay', 'Bolivia', 'Peru', 'Uruguay');
+
 CREATE TABLE Usuarios (
     id_usuario INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
@@ -5,7 +7,8 @@ CREATE TABLE Usuarios (
     email VARCHAR(255) UNIQUE NOT NULL,
     fecha_ingreso DATE NOT NULL,
     cantidad_ingresos INT DEFAULT 0,
-    pais VARCHAR(100)
+    pais PAIS NOT NULL,
+    CONSTRAINT chk_email CHECK (email LIKE '%@gmail.com')
 );
 
 CREATE TABLE Grupos (

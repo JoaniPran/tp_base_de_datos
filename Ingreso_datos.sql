@@ -1,14 +1,14 @@
 INSERT INTO Usuarios (nombre, apellido, email, fecha_ingreso, cantidad_ingresos, pais) VALUES
-('Joani', 'Pranteda', 'joani.pranteda@example.com', '2023-03-15', 25, 'Argentina'),
-('Daira', 'Gomez', 'daira.gomez@example.com', '2023-05-10', 15, 'Argentina'),
-('Naomy', 'Lopez', 'naomy.lopez@example.com', '2022-11-20', 40, 'Chile'),
-('Lucas', 'Martinez', 'lucas.martinez@example.com', '2024-01-05', 8, 'Uruguay'),
-('Sofia', 'Perez', 'sofia.perez@example.com', '2024-07-02', 5, 'Argentina'),
-('Diego', 'Gomez Perci', 'diego.gomezperci@example.com', '2022-09-13', 60, 'Argentina'),
-('Camila', 'Fernandez', 'camila.fernandez@example.com', '2023-10-01', 12, 'Paraguay'),
-('Mateo', 'Sanchez', 'mateo.sanchez@example.com', '2024-03-18', 10, 'Bolivia'),
-('Valentina', 'Suarez', 'valentina.suarez@example.com', '2023-12-28', 22, 'Perú'),
-('Martina', 'Rossi', 'martina.rossi@example.com', '2022-06-19', 33, 'Argentina');
+('Joani', 'Pranteda', 'joani_pranteda@gmail.com', '2023-03-15', 25, 'Argentina'),
+('Daira', 'Gomez', 'daira_gomez@gmail.com', '2023-05-10', 15, 'Argentina'),
+('Naomy', 'Lopez', 'naomy_lopez@gmail.com', '2022-11-20', 40, 'Chile'),
+('Lucas', 'Martinez', 'lucas_martinez@gmail.com', '2024-01-05', 8, 'Uruguay'),
+('Sofia', 'Perez', 'sofia_perez@gmail.com', '2024-07-02', 5, 'Argentina'),
+('Diego', 'Gomez Perci', 'diego_gomezperci@gamil.com', '2022-09-13', 60, 'Argentina'),
+('Camila', 'Fernandez', 'camila_fernandez@gmail.com', '2023-10-01', 12, 'Paraguay'),
+('Mateo', 'Sanchez', 'mateo_sanchez@gmail.com', '2024-03-18', 10, 'Bolivia'),
+('Valentina', 'Suarez', 'valentina_suarez@gmail.com', '2023-12-28', 22, 'Perú'),
+('Martina', 'Rossi', 'martina_rossi@gmail.com', '2022-06-19', 33, 'Argentina');
 
 INSERT INTO Grupos (id_grupo, nombre, descripcion, fecha_creacion) VALUES
 (1, 'Programadores Java', 'Grupo dedicado al intercambio de conocimientos sobre Java', '2023-04-12'),
