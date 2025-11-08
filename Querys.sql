@@ -13,7 +13,24 @@ JOIN Amistades a ON u.id_usuario = a.id_usuario_1
 JOIN Usuarios us ON a.id_usuario_2 = us.id_usuario;
 
 -- Listar los amigos de un usuario particular de la red social.
-;
+SELECT 
+    u2.id_usuario,
+    u2.nombre,
+    u2.apellido
+FROM Amistades a
+INNER JOIN Usuarios u2 ON a.id_usuario_2 = u2.id_usuario
+WHERE a.id_usuario_1 = 10
+
+UNION
+
+SELECT 
+    u1.id_usuario,
+    u1.nombre,
+    u1.apellido
+FROM Amistades a
+INNER JOIN Usuarios u1 ON a.id_usuario_1 = u1.id_usuario
+WHERE a.id_usuario_2 = 10
+ORDER BY nombre, apellido;
 
 -- Listar todos los mensajes de la red social.
 SELECT * 
@@ -58,7 +75,8 @@ SET descripcion = 'Video editado: resumen final de la hackathon',
 WHERE id_publicacion = 14;
 
 -- Eliminar una publicación (dar un ejemplo de cada tipo).
-;
+DELETE from Publicaciones
+WHERE id_publicacion = 1;
 
 -- Desregistrar a un usuario de la aplicación (dar un ejemplo).
 DELETE FROM Usuarios WHERE id_usuario = 1;
