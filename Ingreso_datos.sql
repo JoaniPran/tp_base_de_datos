@@ -4,10 +4,10 @@ INSERT INTO Usuarios (nombre, apellido, email, fecha_ingreso, cantidad_ingresos,
 ('Naomy', 'Lopez', 'naomy_lopez@gmail.com', '2022-11-20', 40, 'Chile'),
 ('Lucas', 'Martinez', 'lucas_martinez@gmail.com', '2024-01-05', 8, 'Uruguay'),
 ('Sofia', 'Perez', 'sofia_perez@gmail.com', '2024-07-02', 5, 'Argentina'),
-('Diego', 'Gomez Perci', 'diego_gomezperci@gamil.com', '2022-09-13', 60, 'Argentina'),
+('Diego', 'Gomez Perci', 'diego_gomezperci@gmail.com', '2022-09-13', 60, 'Argentina'),
 ('Camila', 'Fernandez', 'camila_fernandez@gmail.com', '2023-10-01', 12, 'Paraguay'),
 ('Mateo', 'Sanchez', 'mateo_sanchez@gmail.com', '2024-03-18', 10, 'Bolivia'),
-('Valentina', 'Suarez', 'valentina_suarez@gmail.com', '2023-12-28', 22, 'Perú'),
+('Valentina', 'Suarez', 'valentina_suarez@gmail.com', '2023-12-28', 22, 'Peru'),
 ('Martina', 'Rossi', 'martina_rossi@gmail.com', '2022-06-19', 33, 'Argentina');
 
 INSERT INTO Grupos (id_grupo, nombre, descripcion, fecha_creacion) VALUES
