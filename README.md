@@ -9,7 +9,7 @@ Este proyecto contiene el diseño e implementación completa de una base de dato
 ## Estructura del Proyecto
 
 ```
-Equipo5/
+sql/
 ├── Creacion_Tablas.sql      # Definición del esquema de base de datos
 ├── Ingreso_datos.sql        # Datos iniciales de prueba
 ├── Querys.sql               # Consultas SQL de ejemplo
