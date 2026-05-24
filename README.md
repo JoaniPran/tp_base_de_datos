@@ -124,7 +124,7 @@ El modelo se fundamenta en las siguientes hipótesis:
 
 ---
 
-## 🔗 Relaciones Implementadas
+## Relaciones Implementadas
 
 | Relación | Entidades | Cardinalidad | Descripción |
 |----------|-----------|--------------|-------------|
