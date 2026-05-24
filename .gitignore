@@ -1,0 +1,32 @@
+# Sistema de archivos y configuraciones de editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.project
+.idea/
+.vscode/
+
+# Archivos de sistema
+*.log
+*.tmp
+*.bak
+
+# Archivos de bases de datos temporales
+*.sqlite
+*.db
+*.sql~
+
+# Archivos de compilación y dependencias (no aplican aquí pero se ignoran por seguridad)
+node_modules/
+build/
+dist/
+
+env/
+.venv/
+
+# Archivos de Markdown generados automáticamente
+*.pdf
+
+# Ignorar archivos de configuración local de JetBrains
+*.iml
