@@ -14,7 +14,6 @@ sql/
 ├── Ingreso_datos.sql        # Datos iniciales de prueba
 ├── Querys.sql               # Consultas SQL de ejemplo
 ├── Roles.sql                # Definición de roles y permisos
-└── README.md                # Este archivo
 ```
 
 ---
